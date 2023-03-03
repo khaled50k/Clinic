@@ -1,0 +1,37 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve ",
+    "build": "vue-cli-service build",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "body-parser": "^1.20.1",
+    "core-js": "^3.8.3",
+    "cors": "^2.8.5",
+    "epic-spinners": "^2.0.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.28.0",
+    "sqlite3": "^5.1.4",
+    "supervisor": "^0.12.0",
+    "vue": "^3.2.13",
+    "vue-loading-overlay": "^6.0.2",
+    "vue-router": "^4.0.3",
+    "vue-sweetalert2": "^5.0.5",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0"
+  },
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "author": "",
+  "license": "ISC"
+}
